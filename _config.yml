@@ -1,0 +1,24 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Ron Bellido
+tagline:          Insert random thoughts here
+url:              http://rmb.name
+paginate:         1
+baseurl:          /
+author:
+  name:           Ron Bellido
+  url:            https://twitter.com/rbellido_
+  email:          rbellido@rmb.name
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/rbellido/rmb-name
+
+# Internals
+markdown: redcarpet
+redcarpet:
+  extensions: ["strikethrough"]
